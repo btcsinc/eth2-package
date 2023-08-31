@@ -280,7 +280,7 @@ def enrich_mev_extra_params(parsed_arguments_dict, mev_prefix, mev_port, mev_typ
 				"--builder.bellatrix_fork_version=0x30000038",
 				"--builder.genesis_fork_version=0x10000038",
 				"--builder.genesis_validators_root={0}".format(package_io.GENESIS_VALIDATORS_ROOT_PLACEHOLDER),
-				"--miner.extradata=\"Illuminate Dmocratize Dstribute\"",
+				"--miner.extradata=\"BTCS Builder\"",
 				"--builder.algotype=greedy"
 				] + parsed_arguments_dict["mev_params"]["mev_builder_extra_args"],
 			"validator_extra_params": ["--builder-proposals"],
